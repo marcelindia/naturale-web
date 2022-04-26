@@ -1,10 +1,11 @@
 import React from "react";
-import "./App.css";
+import Navbar from "./components/NavBar";
 
 function App() {
   return (
     <div>
-      <header>Naturale</header>
+      <h1>Naturale</h1>
+      <Navbar />
       <p>Coils Best Friend</p>
     </div>
   );
